@@ -71,7 +71,7 @@ a,
     font-weight: bold;
     border-radius: 6px;
     border-width: 0;
-    padding: 8px 16px;
+    padding: 8px 24px;
 }
 
 .hero-button:hover {
@@ -157,4 +157,45 @@ a,
     color: #1f2937;
     font-weight: 900;
     font-size: 24px;
+}
+
+.button-box {
+    display: flex;
+    gap: 48px;
+    align-items: center;
+    margin: 96px;
+    padding: 48px 96px;
+    border-radius: 6px;
+    background-color: #3882f6;
+    color: white;
+}
+
+.bb-left {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.bb-header {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.bb-text {
+    font-size: 16px;
+}
+
+.bb-button {
+    background-color: transparent;
+    color: white;
+    border: solid white;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 16px;
+}
+
+.bb-button:hover {
+    color: #aaa;
+    border: solid #aaa;
 }
