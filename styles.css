@@ -1,3 +1,7 @@
+div {
+    font-family: "Roboto", sans-serif;
+}
+
 body {
     margin: 0;
 }
@@ -11,7 +15,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 8px 48px;
+    padding: 8px 96px;
     background-color: #1f2937;
 }
 
@@ -27,12 +31,59 @@ body {
     gap: 16px;
 }
 
-a {
+a,
+.hero-text,
+.hero-button,
+.hero-right {
     text-decoration: none;
     color: white;
     font-size: 18px;
 }
 
-div {
-    font-family: "Roboto", sans-serif;
+.hero {
+    background-color: #1f2937;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 96px;
+    gap: 24px;
+    color: white;
+}
+
+.hero-left {
+    flex: 1 1 260px;
+    min-width: 260px;
+    max-width: 430px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.hero-header {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-button {
+    background-color: #3882f6;
+    font-weight: bold;
+    border-radius: 6px;
+    border-width: 0;
+    padding: 8px 16px;
+}
+
+.hero-button:hover {
+    background-color: #316fd3;
+}
+
+.hero-right {
+    background-color: #67a;
+    flex: 0 0 auto;
+    width: 430px;
+    height: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
