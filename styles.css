@@ -199,3 +199,10 @@ a,
     color: #aaa;
     border: solid #aaa;
 }
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 48px;
+}
